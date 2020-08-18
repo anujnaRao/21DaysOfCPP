@@ -8,6 +8,9 @@ void add(float x, float y){
 
 void sub(float x, float y){
     cout << "Sub is: " << x - y << endl;
+    if ( (x- y) == 0)
+        cout << "True" << endl;
+    cout << ((x- y) == 0) << endl;
 }
 
 float mul(float x, float y){
