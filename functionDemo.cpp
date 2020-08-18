@@ -12,4 +12,5 @@ int main(){
     funcDemo(); //Function calling
     cout << "After function";
     cout << endl;
+    return 0;
 }
