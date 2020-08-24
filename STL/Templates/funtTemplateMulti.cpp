@@ -17,3 +17,8 @@ int main(){
     add(20, 30.5);
     return 0;
 }
+
+// If the functions are performing different operations then the generic function can not be overloaded
+/* void fun(double a){ cout << a;}
+
+void fun(int a){ if (a%2 == 0) cout << "even" ;}*/
