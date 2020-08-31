@@ -18,7 +18,7 @@ int main(){
 
     for(const auto &e1:Tree){
         for(const auto &e2:e1){
-            cout << "->" << e2;
+            cout << e2;
         }
         cout << endl;
     }
