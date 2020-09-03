@@ -12,7 +12,7 @@ class A{
 
 int main(){
     set<A> Set;
-    Set.insert(A(10));
-    Set.emplace(20);
+    Set.insert(A(10)); // The insert staement takes the object and the value
+    Set.emplace(20); // The emplace creates the object and gives the value, without additional creation of the object
     return 0;
 }
