@@ -5,24 +5,22 @@ Time Complexity: B.C - O(1) A.C and W.C - O(log n)
 Space Complexity: W.C - O(1)
 */
 
-// Iterative Method
+// Reccursion Method
 #include <bits/stdc++.h>
 
 using namespace std;
 
 int binarySearch(int ar[], int low, int high, int ele){
     int mid;
-    while( high >= low){
+    if( high >= low){
         mid = (low + high) /2;
         if( ar[mid] == ele){
              return mid; 
         }
-        else if( ar[mid] > ele){
-            high = mid - 1;
+        if( ar[mid] > ele){
+            return binarySearch(ar, low, mid-1, ele);
         }
-        else{
-            low = mid + 1;
-        }
+        return binarySearch(ar, mid+1, high, ele);
     }
     return -1;
 }
