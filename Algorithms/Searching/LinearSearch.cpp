@@ -1,3 +1,7 @@
+/* Time Complexity: B.C - O(1), A.C and W.C - O(n)
+   Space Complexity: W.C - O(n)
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
