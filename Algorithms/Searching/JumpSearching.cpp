@@ -4,6 +4,7 @@
  If the block value, that is the last value in the block is greater than the search element,
  then the previous block is taken
  Linear search is performed in that block till the element is found
+ Time complexity : O(sqrt(n))
 */
 #include <bits/stdc++.h> 
 using namespace std; 
