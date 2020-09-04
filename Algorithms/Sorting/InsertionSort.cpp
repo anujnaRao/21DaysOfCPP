@@ -1,3 +1,9 @@
+/*
+Time Complexity: Omega(n) B.C 
+W.C Theta(n^2)
+O(n^2) A.C
+Space: O(1)
+*/
 #include <iostream>
 
 using namespace std;
