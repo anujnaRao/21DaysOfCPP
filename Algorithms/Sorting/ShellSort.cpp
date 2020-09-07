@@ -36,17 +36,18 @@ int main()
 {    
     int arr[30];    
     int k,  num;    
-    printf("Enter total no. of elements : ");    
-    scanf("%d", &num);    
-    printf("\nEnter %d numbers: ", num);    
+    cout << "Enter total no. of elements : ";    
+    cin >> num;    
+    cout << "Enter %d numbers: " << num;    
     
     for (k =  0 ; k < num; k++)    
     {    
-        scanf("%d", &arr[k]);    
+        cin >> arr[k];    
     }    
     shellsort(arr, num);    
-    printf("\n Sorted array is: ");    
+   cout << " Sorted array is:\n ";    
     for (k = 0; k < num; k++)    
-        printf("%d ", arr[k]);    
+        cout<< arr[k] << " ";
+    cout << endl;    
     return 0;    
 }    
