@@ -38,7 +38,7 @@ int main()
     int k,  num;    
     cout << "Enter total no. of elements : ";    
     cin >> num;    
-    cout << "Enter %d numbers: " << num;    
+    cout << "Enter numbers: \n";    
     
     for (k =  0 ; k < num; k++)    
     {    
