@@ -4,7 +4,11 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+// The concept of jagged array is present in Java
+// It is a dynamic array, which can be implemented
+// in C++ using vectors
+// When a vector is used inside a vector 
+// It works as jagged array
 
 int main() {
     int n, q, size, value, which, index;
