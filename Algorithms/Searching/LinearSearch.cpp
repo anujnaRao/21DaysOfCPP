@@ -1,5 +1,6 @@
 /* Time Complexity: B.C - O(1), A.C and W.C - O(n)
    Space Complexity: W.C - O(n)
+   Sequential access of array
 */
 
 #include <bits/stdc++.h>
