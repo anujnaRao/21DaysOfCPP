@@ -6,7 +6,4 @@
 - It supports the main pillars of OOPs
 - Encapsulation, Abstraction, Inheritance, Polymorphism
 
-# History
-- It is improvisation of C
-- It is very neare to C# also
 
